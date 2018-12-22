@@ -27,7 +27,7 @@ let package = Package(
     dependencies: [
         ...
         .package(url: "https://github.com/m-housh/JWTTokenService.git", from:
-        "0.1.1"),
+        "0.1.2"),
     ],
     targets: [
         ...
