@@ -104,7 +104,7 @@ router.post("login") { req -> String in
 
 In a route or container.
 
-```
+``` swift
 router.get("verifyToken", String.parameter) { req -> HTTPResponseStatus in
     let token = try req.parameters.next(String.self)
     let verifier = try req.make(JWTTokenService.self)
